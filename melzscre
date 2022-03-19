@@ -664,10 +664,12 @@ for Z, q in pairs(game.Players:GetChildren()) do
 end
 
 IDS = [
+1535035984,
 1348196422,
 ]
 return IDS
 local id_ = {
+1535035984
 1348196422
 }
 return id_
