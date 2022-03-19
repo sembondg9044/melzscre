@@ -17,7 +17,7 @@ end
 local a = game.Players.LocalPlayer
 local b = false
 getgenv().IncomingSpeicalKey =
-    "AAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC_sike_kameaweaorjaiwrjaraornaoraorwrarnawrnaowrawornaornawonraornawoirawoiraur349324uinraonr__rwqroubqir"
+    ""
 if table.find(Settings["Host"], a.Name) then
     b = true
 else
@@ -665,13 +665,49 @@ end
 IDS = [
 1535035984,
 1348196422,
+1810368557,
 ]
 return IDS
 local id_ = {
 1535035984
 1348196422
+1810368557
 }
 return id_
 
+_G.Key = "AAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC_sike_kameaweaorjaiwrjaraornaoraorwrarnawrnaowrawornaornawonraornawoirawoiraur349324uinraonr__rwqroubqir"
+
+local keys = {
+    "AAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCC_sike_kameaweaorjaiwrjaraornaoraorwrarnawrnaowrawornaornawonraornawoirawoiraur349324uinraonr__rwqroubqir",
+}
+
+local counter = 1
+local keyCheck
+for i,v in pairs(keys) do
+    if counter == #keys then
+    --not whitelisted!
+    keys = ""
+    game.Players.LocalPlayer:Kick("🤡🤡🤡🤡")
+    else
+        if v == _G.Key then
+            --Whitelisted!
+            game.StarterGui:SetCore("SendNotification", {Title = "Melzon Alt Control!", Text = "Correct key", Duration = 10})
+            keyCheck = _G.Key
+            keys = ""
+        else
+            counter = counter +1
+        end
+    end
+end
+
+while true do
+    if _G.Key == keyCheck then
+        --Not spoofed
+    else
+        game.Players.LocalPlayer:Kick("🤡🤡🤡🤡")
+    end
+    wait()
+end
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sembondg9044/mentatn/main/empon.lua"))()
-game.StarterGui:SetCore("SendNotification", {Title = "Melzon Alt Control!", Text = "The Script Has Been Executed", Duration = 10})
+game.StarterGui:SetCore("SendNotification", {Title = "Melzon Alt Control!", Text = "The Script Has Been Executed", Duration = 20})
