@@ -10,7 +10,6 @@ getgenv().Alts = {--38 ALTS MAX
 
 }
 
--- This is not deobfuscated, it was minified then beautified to prevent kids skidding ;))
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
