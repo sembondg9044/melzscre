@@ -1,9 +1,9 @@
 getgenv().Settings = {
-    Host = {"jembaydomeni","Kickbuddy170"},
+    Host = {"",""},
     Prefix = ".",
     FPS_CAP = 3,
 }
-getgenv().Alts = {--38 ALTS MAX
+getgenv().Alts = {
     Alt1 = ,
     Alt2 = ,
     Alt3 = ,
