@@ -27,7 +27,7 @@ else
     local d = Instance.new("Frame")
     local e = Instance.new("TextLabel")
     local f = Instance.new("TextLabel")
-    c.Name = "SlaveControl"
+    c.Name = "MelzonAltControl"
     c.Parent = game.CoreGui
     c.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     d.Parent = c
@@ -43,7 +43,7 @@ else
     e.Position = UDim2.new(0.437655866, 0, 0.380451113, 0)
     e.Size = UDim2.new(0, 200, 0, 50)
     e.Font = Enum.Font.SourceSans
-    e.Text = "Eyes off for Big Black Niggers"
+    e.Text = "3D rendering off to save CPU"
     e.TextColor3 = Color3.fromRGB(255, 255, 255)
     e.TextSize = 100.000
     f.Parent = d
@@ -675,4 +675,4 @@ local id_ = {
 return id_
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/grandpascripts/error502/main/AntiAfk.lua"))()
-game.StarterGui:SetCore("SendNotification", {Title = "Slave Control!", Text = "Them slaves are working for you!", Duration = 10})
+game.StarterGui:SetCore("SendNotification", {Title = "Melzon Alt Control!", Text = "The Script Has Been Executed", Duration = 10})
