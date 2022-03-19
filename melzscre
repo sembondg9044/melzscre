@@ -451,7 +451,7 @@ local function p(n, q)
                     wait()
                 end
             end
-        elseif n == Settings["Prefix"] .. "float" then
+        elseif n == Settings["Prefix"] .. "airlock" then
             if not b then
                 l["Floating"] = true
                 local w =
